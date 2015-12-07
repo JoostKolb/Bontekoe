@@ -1,0 +1,13 @@
+{
+	"autoload": {
+		"classmap": [
+			"app/config/core",
+			"app/models"
+		]
+	},
+	"require": {
+		"illuminate/database": "4.2.*",
+		"smarty/smarty": "3.1.19",
+		"phpmailer/phpmailer": "~5.2"
+	}
+}

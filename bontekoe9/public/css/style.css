@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.banner {
+    width: 100%;
+    background-color: #c9c9c9;
+    padding: 40px 0;
+    margin: 0 0 20px 0;
+    color: black;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    color: black;
+}
+
+.main-banner {
+    background-color: white;
+}
+
+.prijzen-banner {
+    background-color: #f1f1f1;
+    margin-bottom: 0px;
+}
+
+.footerMid {
+    overflow: hidden;
+    width: 100%;
+    background-color: #191919;
+    color: #DCDCDC;
+    height: 211px;
+}
+
+.footerpush {
+    height: 211px;    
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -211px;
+}
+
+.logo {
+    width: 100%;
+    height: 200px;
+    background: black;
+    font-family: 'Lobster', sans-serif;
+}
+
+.logo-text {
+    font-size: 40px;
+    line-height: 200px;
+    text-shadow: 1px 1px black;
+}
+
+#bioscoop {
+    background-image: url(/bontekoe9/public/images/bioscoop.jpg);
+    background-position: 50%;
+    background-size: 100%;
+    color: #41bceb;
+}
+
+#restaurant {
+    background-image: url(/bontekoe9/public/images/restaurant.jpg);
+    background-position: 50%;
+    background-size: 100%;
+    color: #d8267d;
+}
+
+#uitgaan {
+    background-image: url(/bontekoe9/public/images/uitgaan.jpg);
+    background-position: 50%;
+    background-size: 100%;
+    color: #ff6a00; 
+}
+
+.small-2 img {
+    width: 0;
+}
+
+.item {
+    height: 300px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.item p {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#item-1 {
+    background: url('/bontekoe9/public/images/guardiansofthegalaxy.jpg') center center;
+}
+
+#item-2 {
+    background: url('/bontekoe9/public/images/dawnoftheplanetoftheapes.jpg') center center;
+}
+
+#item-3 {
+    background: url('/bontekoe9/public/images/riseoftheplanetoftheapes.jpg') center center;
+}
+
+.medewerker-login {
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    background: Gainsboro;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.5);
+}
+
+div.push {
+    margin-bottom: 20px;
+}
+
+div.zoekbutton {
+    padding: 0;
+}
+
+span.small-text {
+    font-size: 14px;
+}
+
+img.film-img {
+    margin: 0;
+    padding: 0;
+}
+
+.kiezen-banner {
+    height: 33.33vh;
+    margin-bottom:0;   
+    text-align: center;
+    line-height: 33.33vh;
+    font-size: 60px;
+    color: white;
+    background-size: 100%;
+    font-family: 'Lobster', sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+#restaurant-banner {
+    background-image: url(/bontekoe9/public/images/restaurant.jpg);
+    background-position: 30%;
+}
+
+#bioscoop-banner {
+    background-image: url(/bontekoe9/public/images/bioscoop.jpg);
+    background-position: 30%;
+}
+
+#uitgaan-banner {
+    background-image: url(/bontekoe9/public/images/uitgaan.jpg);
+    background-position: 30%;
+}
+
+.kiezen-inloggen {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-shadow: 1px 1px black;
+}
+
+.kiezen-inloggen a {
+    color:white;
+    margin: 0 5px;
+}
+
+.kiezen-inloggen a:before {
+    content: "- ";
+}
+
+.kiezen-inloggen a:after {
+    content: " -";
+}
+
+.fotos {
+    background-color: white;
+}
